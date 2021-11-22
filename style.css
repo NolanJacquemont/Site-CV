@@ -1,0 +1,92 @@
+body {
+	font-family: Montserrat;
+	background-color: #010409;
+	color: white;
+}
+
+h1 {
+	margin: 0 0 0.5em;
+}
+
+h2 {
+	margin: 0 0 0.5em;
+}
+
+.top {
+	display: table;
+	background-color: #00242C;
+	height: 150px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.down {
+	display: table;
+	background-color: #00242C;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	left: 0; 
+	right: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.titre {
+	top: 50px;
+	color: white;
+	font-size: 50px;
+}
+
+.top .sous-titre {
+	color: white;
+	font-size: 30px;
+}
+
+.down .sous-titre {
+	color: white;
+	font-size: 20px;
+}
+
+.centre .sous-titre {
+	color: white;
+	font-size: 30px;
+	border-left: solid #1D6867 5px;
+	padding: 10px;
+}
+
+.centrer-bandeau {
+	display: table-cell;
+	position: middle;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.navigation {
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1D6867;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00242C;
+}
