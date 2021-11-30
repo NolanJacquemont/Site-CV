@@ -54,13 +54,29 @@ h1, h2{
 
 .centrer-bandeau {
 	display: table-cell;
-	position: middle;
 	text-align: center;
 	vertical-align: middle;
 }
 
+.gauche-bandeau {
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.droite-bandeau {
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+}
+
+
 .navigation {
 	
+}
+
+.actuel {
+    background-color: #185251;
 }
 
 ul {
