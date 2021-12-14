@@ -45,6 +45,10 @@ footer .sous-titre {
 	font-size: 20px;
 }
 
+.centre a {
+	text-decoration: underline;
+}
+
 .centre .sous-titre {
 	color: white;
 	font-size: 30px;
