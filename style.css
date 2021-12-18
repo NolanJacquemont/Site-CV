@@ -31,7 +31,7 @@ footer {
 }
 
 .allWithoutFooter {
-	min-height: calc(100vh - 95px);
+	min-height: calc(100vh - 87px);
 }
 
 .titre {
