@@ -90,7 +90,7 @@ footer .sous-titre {
     background-color: #185251;
 }
 
-ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -98,11 +98,11 @@ ul {
     background-color: #1D6867;
 }
 
-li {
+#nav li {
     float: left;
 }
 
-li a {
+#nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -110,7 +110,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#nav li a:hover {
     background-color: #00242C;
 }
 
@@ -132,4 +132,19 @@ li a:hover {
 }
 .button:hover {
     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+.compDiv {
+    display: table;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.compGauche {
+    display:table-cell;
+}
+
+.compDroite {
+    display: table-cell;
 }
